@@ -2,6 +2,8 @@ This directory contains the models implemented as extensions of DeepCoNN, from t
 
 Each model is self-contained and can be run separately.
 
+NOTE: Make sure to copy Digital_Music_5.jsonl.gz into the data directories of each model before implementation
+
 # DeepCoNN-BERT
 To run, install the packages listed in requirements.txt. Conda may be needed to install pytorch instead of pip. 
 Preprocessed data and training/test splits are available in the data folder but may be re-processed and split by navigating to the data folder and running
@@ -22,7 +24,7 @@ To run, open the juypter notebook and run the file from the top. Running all cel
 
 # DeepCoNN-RoBERTa
 To run, install necessary packages first.
-Run preprocess.py in the data folder to regenerate data splits as needed. Default data splits are available as csv files in data/music.
+Run preprocess.py in the data folder to regenerate data splits as needed. 
 Then navigate back to main directory and run main.py.
 Changes to parameters can be made in config.py.
 All runs were done on the PACE ICE cluster GPU.
