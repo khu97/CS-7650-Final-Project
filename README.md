@@ -22,6 +22,6 @@ To run, open the juypter notebook and run the file from the top. Running all cel
 
 # DeepCoNN-RoBERTa
 To run, install necessary packages first.
-Run preprocess.py in the data folder to regenerate data splits as needed. Default data splits are available as csv files.
+Run preprocess.py in the data folder to regenerate data splits as needed. Default data splits are available as csv files in data/music.
 Then navigate back to main directory and run main.py
 Changes to parameters can be made in config.py
