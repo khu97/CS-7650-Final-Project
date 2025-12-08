@@ -16,3 +16,6 @@ python main.py
 # DeepCoNN-LSTM
 To run, navigate to the LSTM Recomender Notebook and open it in either google colab or jupyter notebook. Running all cells will train and test both DeepCoNN Baseline and the LSTM. All runs for this model were executed on a A100 CoLab GPU.
 Preprocessed data and training/test splits are available in the data foler inside of the LSTM folder.
+
+# SBERT
+To run, open the juypter notebook and run the file from the top. Running all cells will train and test the SBERT. All runs were done on a M3 Pro. 
