@@ -19,3 +19,9 @@ Preprocessed data and training/test splits are available in the data foler insid
 
 # SBERT
 To run, open the juypter notebook and run the file from the top. Running all cells will train and test the SBERT. All runs were done on a M3 Pro. 
+
+# DeepCoNN-RoBERTa
+To run, install necessary packages first.
+Run preprocess.py in the data folder to regenerate data splits as needed. Default data splits are available as csv files.
+Then navigate back to main directory and run main.py
+Changes to parameters can be made in config.py
