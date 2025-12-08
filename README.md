@@ -6,12 +6,12 @@ NOTE: Make sure to copy Digital_Music_5.jsonl.gz into the data directories of ea
 
 # DeepCoNN-BERT
 To run, install the packages listed in requirements.txt. Conda may be needed to install pytorch instead of pip. 
-Preprocessed data and training/test splits are available in the data folder but may be re-processed and split by navigating to the data folder and running
+To preprocess data and create training/test splits, copy the Digital_Music.jsonl.gz file into the data folder, then run
 ```
 python preprocess.py
 ```
 
-Then navigate back to the main directory and run
+Then to train the model, navigate back to the main directory and run
 ```
 python main.py
 ```
